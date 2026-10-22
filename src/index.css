@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes aurora-drift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-aurora {
+  background-image: linear-gradient(
+    120deg,
+    #7c5cff,
+    #34e1d1,
+    #ffb547,
+    #c86bff,
+    #7c5cff
+  );
+  background-size: 320% 320%;
+  animation: aurora-drift 9s ease-in-out infinite;
+}
+
+.star-parallax {
+  background: #070b18;
+  position: relative;
+}
+
+.star-parallax .layer-a,
+.star-parallax .layer-b {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+      1px 1px at 24px 44px,
+      #ffffff 50%,
+      transparent 51%
+    ),
+    radial-gradient(1.6px 1.6px at 130px 80px, #dfe6ff 50%, transparent 51%),
+    radial-gradient(1px 1px at 210px 26px, #ffffff 50%, transparent 51%),
+    radial-gradient(1.3px 1.3px at 320px 110px, #cdd8ff 50%, transparent 51%),
+    radial-gradient(1px 1px at 380px 60px, #ffffff 50%, transparent 51%);
+  background-size: 480px 240px;
+}
+
+.star-parallax .layer-a {
+  opacity: 0.9;
+  animation: parallax-drift 7s linear infinite;
+}
+
+.star-parallax .layer-b {
+  opacity: 0.45;
+  transform: scale(1.6);
+  animation: parallax-drift 14s linear infinite;
+}
+
+@keyframes parallax-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -240px -120px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-aurora,
+  .star-parallax .layer-a,
+  .star-parallax .layer-b {
+    animation: none;
+  }
+}

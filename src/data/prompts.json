@@ -1,0 +1,167 @@
+[
+  {
+    "id": "beaconstack",
+    "title": "Beaconstack",
+    "category": "SaaS",
+    "tier": "free",
+    "featured": true,
+    "popularity": 980,
+    "addedAt": "2026-10-20",
+    "description": "A confident dark-mode landing page for a B2B analytics product with a glowing hero and stats that sell the outcome.",
+    "prompt": "Build a single-page marketing site for \"Beaconstack\", a B2B product analytics platform. Style: dark mode (#0b0d14 background, electric cyan #34e1d1 accents), generous whitespace, subtle glassmorphism cards, smooth fade-up animations on scroll. Sections: (1) sticky glass navbar with logo, links, and a bright CTA button; (2) hero with a bold two-line headline, subheadline, dual CTA buttons, and a floating dashboard mockup built in pure CSS with animated bar charts; (3) a stats strip (\"3x faster insight\", \"120+ integrations\", \"SOC 2 ready\"); (4) three feature cards with line icons; (5) a testimonial row with avatar initials and company names; (6) a pricing teaser with three tiers; (7) footer with newsletter input. Responsive down to 360px, all animations CSS-driven, no images, semantic HTML."
+  },
+  {
+    "id": "inkfolio",
+    "title": "Inkfolio",
+    "category": "Portfolio",
+    "tier": "free",
+    "featured": false,
+    "popularity": 760,
+    "addedAt": "2026-10-18",
+    "description": "A minimal editorial-style portfolio for a writer or designer with oversized type and a paper-like feel.",
+    "prompt": "Create a one-page personal portfolio called \"Inkfolio\" for a multidisciplinary designer-writer. Style: warm off-white background (#faf7f2), near-black ink text, one serif display font paired with a clean grotesque, almost no borders — layout does the work. Sections: (1) huge name headline that fills the first viewport with a one-sentence role underneath; (2) a selected-work list of 5 projects, each a full-width row that inverts colors on hover and reveals a one-line summary; (3) an about paragraph with a pull-quote; (4) a services mini-grid (writing, identity, art direction); (5) footer with email link and social handles. Smooth scroll-based reveal animations, keyboard-navigable links, fully responsive, zero images — typography is the visual."
+  },
+  {
+    "id": "orbitlane",
+    "title": "Orbitlane",
+    "category": "3D",
+    "tier": "free",
+    "featured": false,
+    "popularity": 810,
+    "addedAt": "2026-10-19",
+    "description": "A space-tech landing page with an interactive starfield hero and parallax planet section.",
+    "prompt": "Build a landing page for \"Orbitlane\", a fictional satellite-imagery startup. Style: deep-space navt blue (#070b18) with star-noise texture, off-white text, and a single accent of auroral green. Hero: an animated starfield rendered on a lightweight canvas (twinkling stars drifting slowly) behind the headline \"Eyes on every orbit\". Below: a horizontal scroll-snap gallery of three CSS-only \"satellite cards\" with tilting 3D hover transforms; a parallax section where a large gradient sphere slowly rotates using pure CSS keyframes; a data band showing sample telemetry counters that count up on scroll into view. Include a waitlist form with inline success state. Subtract nothing from performance: no external assets, GPU-friendly transforms only, reduce-motion media query respected."
+  },
+  {
+    "id": "pennlight",
+    "title": "Pennlight",
+    "category": "Fintech",
+    "tier": "free",
+    "featured": false,
+    "popularity": 640,
+    "addedAt": "2026-10-15",
+    "description": "A trustworthy consumer-fintech landing page with soft gradients and a savings-goal calculator card.",
+    "prompt": "Design a landing page for \"Pennlight\", a personal savings app. Style: light theme, ivory background, deep green (#1d4d3b) primary, soft cashmere gradients, rounded 24px corners, friendly but serious tone. Sections: (1) nav with app-store badges; (2) hero: \"Small money, big habit\" with a phone mockup showing a savings streak UI in CSS; (3) an interactive mini widget — a savings-goal calculator (amount slider, months slider, computed monthly contribution, all client-side); (4) four trust pillars as clean icon rows (FDIC-style language kept generic and clearly fictional); (5) a comparison table vs. a regular savings account; (6) FAQ accordion with smooth height animation; (7) footer with legal microcopy. Everything accessible: focus-visible rings, aria on the accordion, labels on sliders."
+  },
+  {
+    "id": "makatak",
+    "title": "Makatak",
+    "category": "Agency",
+    "tier": "free",
+    "featured": false,
+    "popularity": 700,
+    "addedAt": "2026-10-12",
+    "description": "A loud, kinetic creative-agency homepage with a marquee reel and hover-distorting project tiles.",
+    "prompt": "Create the homepage of \"Makatak\", a fictional brand & motion studio. Style: starter-bright yellow (#ffd23f) and black, chunky grotesque type, hard edges, sticker-like chips, deliberately loud. Sections: (1) navbar with a bouncing CTA pill; (2) hero headline that cycles three taglines with a scramble/flip animation; (3) an infinite marquee of service words separated by asterisks; (4) a project grid of 6 tiles — each tile a bold CSS-gradient block that skews and swaps label style on hover, opening nothing (decorative); (5) a manifesto block with oversized numbered lists; (6) a contact strip with a huge email link that underlines with a marker-swipe animation. Include cursor-following sparkle dots over the hero (skip entirely if prefers-reduced-motion). One HTML file, everything hand-rolled in CSS."
+  },
+  {
+    "id": "shelfwave",
+    "title": "Shelfwave",
+    "category": "Ecommerce",
+    "tier": "free",
+    "featured": false,
+    "popularity": 590,
+    "addedAt": "2026-10-10",
+    "description": "A fresh product-grid storefront for a fictional ceramics brand with quick-view cards and a clean cart drawer.",
+    "prompt": "Build a storefront page for \"Shelfwave\", a small-batch ceramics shop. Style: blush-white background, terracotta (#c46b52) and sand tones, soft shadows, product photography replaced by tactile CSS-gradient tiles with grain overlay. Sections: (1) minimal top bar with category filter chips; (2) an 8-product grid where each card shows name, price, and a hover \"Quick view\" state; (3) clicking quick-view opens a modal with mock details, quantity stepper, and Add to cart; (4) a working cart drawer that slides in, holds items, updates totals, and shows an empty state — all state in-memory; (5) an \"About the kiln\" band with a short story; (6) footer. Keyboard-accessible modal (focus trap, Esc closes), filter chips animate layout with FLIP or simple transitions. No backend, no real payments — clearly fictional products."
+  },
+  {
+    "id": "metricmelt",
+    "title": "Metricmelt",
+    "category": "SaaS",
+    "tier": "premium",
+    "featured": true,
+    "popularity": 940,
+    "addedAt": "2026-10-21",
+    "description": "A premium SaaS landing page with an animated product-demo walkthrough and interactive feature matrix.",
+    "prompt": "Produce a premium landing page for \"Metricmelt\", an AI cost-observability tool for engineering teams. Style: slate-navy (#101522) base, chartreuse (#c8f542) accents, mono-spaced numerals, technical dashboard aesthetic with dashed grid lines. Sections: (1) slim announcement bar; (2) hero with headline \"See where every GPU dollar goes\" plus a tabbed product viewer — three tabs (Explore, Alert, Optimize), each rendering a different animated CSS chart (line chart with drawn-on path animation, heatmap, waterfall); (3) a horizontally scrolling integration logo strip (fictional names in pure type); (4) an interactive feature matrix table with sticky header and row-hover detail blurbs; (5) ROI band with a slider-driven annual-savings counter; (6) three-quote testimonial carousel with dots; (7) final CTA + compact footer. Animate on intersection, respect reduced motion, ship as one page."
+  },
+  {
+    "id": "studiobedrock",
+    "title": "Studio Bedrock",
+    "category": "SaaS",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 880,
+    "addedAt": "2026-10-17",
+    "description": "An infrastructure-tool landing page with a terminal hero and animated pipeline diagram.",
+    "prompt": "Create a marketing page for \"Studio Bedrock\", a fictional deploy-pipeline product. Style: graphite (#17181c) background, amber (#ffb547) highlights, engineering-manual typography, badge-and-label everything. Sections: (1) nav + GitHub-style star chip; (2) hero headline \"Ship like bedrock\" with an auto-typing terminal block showing a fictional deploy log (loops forever, skippable); (3) an animated pipeline diagram — five stages connected by SVG-ish lines with pulses traveling along them, stages tooltip on hover; (4) a \"Why teams switch\" three-column section with tight paragraphs; (5) a changelog feed (5 fictional entries with version stamps); (6) community band with Discord-style stat chips; (7) footer. Terminal must pause on hover and honor reduced motion by printing the full log statically. Single page, no dependencies beyond CSS."
+  },
+  {
+    "id": "draftpine",
+    "title": "Draftpine",
+    "category": "SaaS",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 720,
+    "addedAt": "2026-10-08",
+    "description": "A calm collaborative-writing app landing page with a live-inline demo of the product promise.",
+    "prompt": "Build a landing page for \"Draftpine\", a collaborative writing tool for teams. Style: warm paper (#f6f3ec) light theme, forest green ink, soft editorial spacing, delta-marker accents in mustard. Sections: (1) nav with public-roadmap link; (2) hero \"Writing that keeps up with the room\" and an embedded faux live-document — two fake cursors (named, colored) typing alternating sentences with realistic backspacing, on a loop; (3) feature trio: live presence, version trails, comment threads — each with a micro-demonstration built in CSS/JS; (4) a pace-band with four numbered onboarding steps; (5) pricing page slice: a simple three-card layout, middle card highlighted; (6) FAQ accordion; (7) footer. The faux document must be readable at screenshot-realistic speed and freeze when off-screen (IntersectionObserver), no blinking after reduced-motion."
+  },
+  {
+    "id": "paperroute",
+    "title": "Paper Route",
+    "category": "Portfolio",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 690,
+    "addedAt": "2026-10-16",
+    "description": "A photographer's portfolio with a film-strip gallery, darkroom hover states, and an image-lightbox feel.",
+    "prompt": "Design a portfolio for \"Paper Route\", a travel & documentary photographer. Style: charcoal (#141414) gallery walls, white captions in small caps, accent of signal red for markers. Since no real photos are available, build an abstract gallery: each \"photo\" is a CSS-gradient + noise composition with frame borders, contact-sheet thumbnails in a horizontally scrollable film strip (sprocket holes rendered in CSS). Sections: (1) full-bleed hero \"contact sheet\" with a slow auto-pan; (2) the film strip viewer — click a frame to open a large view with caption, counter (07/24), and arrow navigation via keyboard; (3) a statement page-spread with a colophon-style layout; (4) a services/prints section with edition badges; (5) footer with commission CTA. Add subtle grain overlay, lazy transitions, and a lightbox that traps focus and closes on backdrop click."
+  },
+  {
+    "id": "prismfold",
+    "title": "Prismfold",
+    "category": "3D",
+    "tier": "premium",
+    "featured": true,
+    "popularity": 960,
+    "addedAt": "2026-10-22",
+    "description": "A scroll-driven 3D product reveal where a faceted object unfolds as the user scrolls.",
+    "prompt": "Create a scroll-driven landing page for \"Prismfold\", a fictional modular desklight brand. The centerpiece: a faceted geometric object rendered purely with CSS 3D transforms (a complex polyhedron built from transformed faces) that rotates and unfolds across four scroll stops, each stop lighting up product copy. Style: void-black background, faces in brushed-steel gradients, caustic-like accent glows in violet. Sections: (1) pinned hero with the object idle-rotating and the brand wordmark; (2) four scroll chapters — Fold, Light, Dock, Blend — each changing object orientation via scroll timeline with graceful fallback (if scroll-driven animations unsupported, use a stepper of buttons); (3) a spec sheet table; (4) a colorway picker that rethemings the gradients live; (5) preorder band with a fictional waitlist form. Zero images, zero libraries, all transforms GPU-composited, reduced-motion fallback required."
+  },
+  {
+    "id": "tidalvane",
+    "title": "Tidalvane",
+    "category": "3D",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 850,
+    "addedAt": "2026-10-14",
+    "description": "A wind-energy company page with a swaying turbine field hero and wind-path cursor interaction.",
+    "prompt": "Build the landing page of \"Tidalvane\", a fictional small-wind energy company. Style: horizon gradient (dawn apricot into deep teal), soft foggy layering, calm sans type. Hero: a field of stylized CSS wind turbines (conic blades) that rotate at different speeds, pace tied to a drifting \"wind gust\" band that also deflects cursor movement — moving the mouse bends a subtle particle stream. Sections: (1) nav with kg-CO2-saved counter chip; (2) hero as described; (3) a \"How it works\" three-step flow with connecting drawn lines animating in; (4) impact stats band with count-up numbers; (5) a site-assessment card form (fictional, no submission — success toast); (6) partner strip in muted type; (7) footer. All animation cheap: transforms/opacity only, IntersectionObserver-gated, reduced-motion static variant."
+  },
+  {
+    "id": "coppergrid",
+    "title": "Coppergrid",
+    "category": "Fintech",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 800,
+    "addedAt": "2026-10-13",
+    "description": "A treasury-management SaaS page with an animated balance-graph hero and dense data-story sections.",
+    "prompt": "Create a landing page for \"Coppergrid\", a cash-flow & treasury tool for mid-size companies. Style: financial newsroom — off-black text on bone white, copper (#b87333) accents, dense tables with grid rulings, tabular numerals. Sections: (1) utilitarian nav; (2) hero with an animated SVG-free CSS line chart drawing in, tick labels, and three KPI tiles; (3) a live \"flow ledger\" strip: rows of fictional transactions sliding in continuously (pause on hover); (4) product pillars in a 2x2 with nautical chart-like icons; (5) case-study pull quotes with hard citations formatting; (6) integration matrix table; (7) CTA footer with compliance badges (fictional). The chart animation must be drawn with box-shadow columns or gradient segments — no external chart libraries — and de-grade gracefully."
+  },
+  {
+    "id": "halftonebureau",
+    "title": "Halftone Bureau",
+    "category": "Agency",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 670,
+    "addedAt": "2026-10-09",
+    "description": "A design-agency site with print-shop texture, letterpress hovering, and a case-study accordion wall.",
+    "prompt": "Design the site of \"Halftone Bureau\", a fictional print-first design agency. Style: newsprint cream background, halftone dot patterns (CSS radial-gradients), letterpress-deep headings, crimson registration marks as accents. Sections: (1) masthead nav styled like a newspaper nameplate with issue number; (2) hero headline set on a fake baseline grid with a red proofreading circle scribble SVG-free (border-radius shapes); (3) case-study accordion wall — six rows expanding to reveal a colored plate block with metadata (year, client fictional, discipline); only one open at a time, smooth max-height animation; (4) a capabilities spread styled as a price list table; (5) a \"work in progress\" ticker; (6) footer with a mailing-list slug. Paper texture via layered gradients, hover states deboss text-shadow. One file, print-shop craft in every detail."
+  },
+  {
+    "id": "loomcrate",
+    "title": "Loomcrate",
+    "category": "Ecommerce",
+    "tier": "premium",
+    "featured": false,
+    "popularity": 630,
+    "addedAt": "2026-10-07",
+    "description": "A subscription-box commerce page with a plan configurator, swatch animations, and a cozy textile feel.",
+    "prompt": "Build a product page for \"Loomcrate\", a fictional monthly yarn-subscription box. Style: cozy knit texture backgrounds (repeating CSS patterns), sage and oat palette, rounded serif headings, warm shadows. Sections: (1) gift-bar announcement ribbon; (2) hero with a CSS-built box illustration that 'unwraps' a ribbon on scroll; (3) the centerpiece — a plan configurator: choose fiber family (swatches with knitted-texture chips), skein count stepper, frequency toggle — updates price, in-box preview, and delivery date bar live; (4) a pattern-library teaser grid (6 fictional pattern cards); (5) community quotes with maker names; (6) a gifting band with a decorative bow animation; (7) FAQ + footer. The configurator is the star: instant feedback, aria-live on price, keyboard-operable steppers. All fictional products and prices."
+  }
+]
